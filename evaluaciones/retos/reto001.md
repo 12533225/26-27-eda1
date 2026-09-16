@@ -16,7 +16,7 @@ Registre, al cierre, cuantas personas fueron atendidas y cuantas quedaron en fil
 
 A partir del minuto 20, además de llegar y ser atendida, a la gente en fila le puede pasar lo siguiente, en cualquier orden:
 
-- Alguien que lleva mas de 8 minutos en fila sin ser atendido se aburre y se va, desde cualquier posición de la fila, no solo desde el frente.
+- Alguien que lleva mas de 8 minutos en fila sin ser atendido se aburre y se va, desde cualquier posición de la fila, no solo desde el frente (30% de probabilidad de aburrirse, cuestionado cada 5 minutos).
 - Alguien con derecho de atención preferente (embarazo, tercera edad, discapacidad) se incorpora justo después de la última persona con ese mismo derecho que ya este en fila, o al frente si nadie en fila tiene ese derecho aún.
 - Alguien se cuela detrás de un conocido que ya esta en la fila, en la posición inmediata siguiente a la de ese conocido, sin derecho alguno que lo justifique.
 
