@@ -20,7 +20,7 @@ A partir del minuto 20, además de llegar y ser atendida, a la gente en fila le 
 - Alguien con derecho de atención preferente (embarazo, tercera edad, discapacidad) se incorpora justo después de la última persona con ese mismo derecho que ya este en fila, o al frente si nadie en fila tiene ese derecho aún.
 - Alguien se cuela detrás de un conocido que ya esta en la fila, en la posición inmediata siguiente a la de ese conocido, sin derecho alguno que lo justifique.
 
-En el centro comercial la política es que una fila no puede tener más de 30 posiciones. Esto lógicamente no es bloqueante, por lo que al intentar incorporar a alguien (por llegada normal, colada licita o colada ilicita) con la fila superando este tamaño, la persona -al ver la cola tan larga- podría desistir y no incorporarse.
+En el centro comercial la política es que una fila no puede tener más de 30 posiciones. Esto lógicamente no es bloqueante, por lo que al intentar incorporar a alguien (por llegada normal, colada licita o colada ilicita) con la fila superando este tamaño, la persona -al ver la fila tan larga- podría desistir y no incorporarse.
 
 También puede darse que alguien le entrega sus compras a otra persona que ya esta en la fila.
 
@@ -29,7 +29,7 @@ Cada 15 minutos simulados, si la fila supera las 25 personas, se escucha por los
 ## Retos
 
 - Simule el escenario completo (dos horas, con las reglas nuevas activas desde el minuto 20).
-- Reporte, para cada minuto, el tamaño (longitud) de la cola, asumiendo que cada persona ocupa 1 metro de longitud.
+- Reporte, para cada minuto, el tamaño (longitud) de la fila, asumiendo que cada persona ocupa 1 metro de longitud.
 
 ## Se debe entregar
 
