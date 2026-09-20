@@ -42,4 +42,37 @@ public class Cola {
         if (indice < 0 || indice >= tamano) return null;
         return elementos[indice];
     }
+
+    public void insertarEn(int indice, Persona p) {
+        if (tamano == elementos.length) {
+            redimensionar();
+        }
+        for (int i = tamano; i > indice; i--) {
+            elementos[i] = elementos[i - 1];
+        }
+        elementos[indice] = p;
+        tamano++;
+    }
+
+    public Persona removerEn(int indice) {
+        if (indice < 0 || indice >= tamano) return null;
+        Persona eliminada = elementos[indice];
+        for (int i = indice; i < tamano - 1; i++) {
+            elementos[i] = elementos[i + 1];
+        }
+        elementos[tamano - 1] = null;
+        tamano--;
+        return eliminada;
+    }
+
+    public void insertarPreferente(Persona p) {
+        int posInse = 0;
+        for (int i = tamano - 1; i >= 0; i--) {
+            if (elementos[i].esPreferente()) {
+                posInse = i + 1;
+                break;
+            }
+        }
+        insertarEn(posInse, p);
+    }
 }
