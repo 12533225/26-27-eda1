@@ -122,4 +122,35 @@ class ListaEnlazada {
             }
         }
     }
+
+    public static ListaEnlazada fusionar(ListaEnlazada a, ListaEnlazada b) {
+        Nodo dummy = new Nodo(-1);
+        Nodo ultimoNodoResultado = dummy;
+        Nodo nodoActualA = a.cabeza;
+        Nodo nodoActualB = b.cabeza;
+
+        while (nodoActualA != null && nodoActualB != null) {
+            if (nodoActualA.dato <= nodoActualB.dato) {
+                ultimoNodoResultado.siguiente = nodoActualA;
+                nodoActualA = nodoActualA.siguiente;
+            } else {
+                ultimoNodoResultado.siguiente = nodoActualB;
+                nodoActualB = nodoActualB.siguiente;
+            }
+            ultimoNodoResultado = ultimoNodoResultado.siguiente;
+        }
+
+        if (nodoActualA != null) {
+            ultimoNodoResultado.siguiente = nodoActualA;
+        } else {
+            ultimoNodoResultado.siguiente = nodoActualB;
+        }
+
+        ListaEnlazada resultado = new ListaEnlazada();
+        resultado.cabeza = dummy.siguiente;
+
+        a.cabeza = null;
+        b.cabeza = null;
+        return resultado;
+    }
 }
