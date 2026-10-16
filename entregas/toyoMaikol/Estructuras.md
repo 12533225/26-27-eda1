@@ -1,2 +1,7 @@
 ##Estructuras empleadas
-Usaría un array bidimensional, contaria con dos columnas y con una cantidad de filas igual número de candidatos + 2 filas para guardar abstinencias y nulos
+
+#Candidatos:
+Usaría un array, en este guardaría los nombres de los candidatos + dos opciones extra(abstenciones, nulos), de tipo string
+
+#Votos
+Usaria un array de tipo entero, donde guardaria la cantidad de votos por cada elemento, asociado por orden a los elementos del array de candidatos
