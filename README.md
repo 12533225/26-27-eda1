@@ -28,6 +28,6 @@ Repo de materiales y proyectos de la asignatura **EDA1** del [Grado de Ingenier�
 
 NOTA: *Algunos enlaces podrían requerir **credenciales de acceso al campus** o a otros espacios colaborativos.*
 
-- Hoja de asistencia et-al
+- [Hoja de asistencia et-al](https://docs.google.com/spreadsheets/d/1aSKf8mzK21CasfP5ZI0XMUXMLlAx77hR5BJaN8fK68A/edit?usp=sharing)
 - Libro de la asignatura
 - Este repo, versión de ediciones pasadas
