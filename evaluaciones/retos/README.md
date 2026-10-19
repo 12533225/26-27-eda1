@@ -9,6 +9,7 @@ Los retos se irán proponiendo, habitualmente luego de una disertación teórica
 [Reto 001 - laFila](/evaluaciones/retos/reto001.md)|Lunes 21|reto-001
 [Reto 002 - Nodo dummy](/evaluaciones/retos/reto002.md)|Viernes 9, 00:00h|reto-002
 [Reto 003 - Simulación](/evaluaciones/retos/reto003.md)||reto-003
+[Reto 004 - refactoring propuesta](/evaluaciones/retos/reto004.md)||reto-004
 
 
 </div>
